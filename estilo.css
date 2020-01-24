@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+/*font-family: 'Roboto', sans-serif;*/
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+header {
+    background-color: white;
+    padding: 0;
+    
+    
+}
+
+ header > h1 {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 5rem 0;
+    
+}
+
+body {
+    margin: 0;
+    background-color: #353839;
+    box-sizing: border-box;
+}
+
+.container {
+    border-radius: 4px;
+    text-align: center;
+    border: 5px solid rgba(223, 39, 76, 0.753);
+    width: 300px;
+    margin: 2rem auto;
+    position: relative;
+    padding: 3rem;
+    color: white;
+}
+
+#user-name {
+    position: absolute;
+    top: 13px;
+    left: -25px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+#comp-name {
+    position: absolute;
+    top: 13px;
+    right: -35px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    
+}
+
+#user-score {
+    font-size: 4.4rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+#comp-score {
+    font-size: 4.4rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.ponto {
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.result > p {
+ text-align: center;
+ margin: 3rem;
+ font-size: 3.6rem;
+ color: white;
+}
+
+.choices {
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.choice {
+    
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 50%;
+    margin: 0 0rem;
+    padding: 2.3rem;
+    
+}
+
+.choice:hover {
+    background-color: #494c4d;
+}
+
+.choice > img {
+    width: 17rem;
+}
+
+#action-message {
+    text-align: center;
+    margin: 3rem;
+    font-size: 3.6rem;
+    color: white;
+    font-weight: 300;
+}
+/*Vencendo green*/
+
+.green-glow {
+    border: 1px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.red-glow {
+    border: 1px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.grey-glow {
+    border: 1px solid #d8d8df;
+    box-shadow: 0 0 10px white;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.div {
+    text-align: center;
+}
+a{
+    position: absolute;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    background-color: #494c4d;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-decoration: none;
+}
